@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+
+.page7{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 20vh;
+    gap: 20px;
+    width: 100vw;
+    height: 80vh;
+    background-color: black;
+}
+
+.pg7-one > a,.pg7-two > a,.page7 > p {
+    color: rgb(127, 132, 143);
+}
+
+.pg7-two{
+    display: grid;
+    width: 90vw;
+    grid-template-columns: repeat(4, 1fr);
+    grid-row-gap: 20px;
+}
+
+.page7 > button {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 800;
+    cursor: pointer;
+    background: black;
+    color: rgb(255, 255, 255);
+    border: 1px solid rgba(255, 255, 255, 0.356);
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+
+@media (max-width:900px) {
+    .page7{
+        padding: 20px;
+    }
+    .pg7-two{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

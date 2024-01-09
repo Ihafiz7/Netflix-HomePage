@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+
+.page3{
+    display: flex;
+    background-color: black;
+    color: azure;
+    align-items: center;
+    width: 100vw;
+    height: 80vh;
+}
+
+@media (max-width:900px) {
+    .page3{
+        flex-direction: column;
+        height: auto;
+        align-items: flex-start;
+    }
+}

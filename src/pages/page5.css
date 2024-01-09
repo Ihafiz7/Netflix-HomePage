@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+
+.page5{
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: 80vh;
+    background-color: black;
+    color: azure;
+    padding: 20px;
+}
+
+.image-kids{
+    width: auto;
+    height: auto;
+    object-fit: cover;
+}
+
+
+@media (max-width:900px) {
+    .page5{
+        flex-direction: column;
+        height: auto;
+        align-items: flex-start;
+        padding: 30px;
+    }
+
+    .image-kids{
+        width: 400px;
+    }
+}

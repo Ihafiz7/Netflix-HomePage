@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+
+.page2{
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: 90vh;
+    background-color: black;
+    color: azure;
+}
+
+.pg2-title{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+/* reduce the auto gap */
+.pg2-title > * {
+    margin-bottom: -5px;
+}
+/* reduce the auto gap */
+
+
+.pg2-title > p{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.title{
+    font-size: 56px;
+    font-weight: bolder;
+}
+
+
+@media (max-width: 900px) {
+    .page2{
+        flex-direction: column;
+        height: auto;
+    }  
+}
+

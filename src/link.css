@@ -1,0 +1,162 @@
+*{
+    box-sizing: border-box;
+
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('C:\Users\hp\Desktop\Netflix\netflix\public\image\bg1.png');
+    background-size: 100vw 150vh;
+}
+
+.form-element{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: azure;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(49, 53, 53);
+    width: 40vw;
+    height: 100vh;
+    gap: 20px;
+    padding: 30px;
+    
+}
+
+.form-element > form > h3 {
+    color: azure;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.form-element > form > input{
+    border: none;
+    background-color: rgb(23, 23, 24);
+    padding: 15px;
+    caret-color: azure;
+    border-radius: 10px;
+    color: azure;
+}
+
+.form-element > form > input ::placeholder{
+    font-weight: 800;
+    font-size: 16px;
+}
+
+.form-element > form > button{
+    font-weight: bold;
+    font-size: 16px;
+    color: azure;
+    background-color: rgb(230,0,38);
+    text-align: center;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.form-div1{
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+}
+
+.form-div1 > div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.form-div1 > div >input {
+    width: 15px;
+    height: 15px;
+}
+
+.form-div2{
+    display: flex;
+    gap: 5px;
+}
+
+.form-div2 > p{
+    font-size: 14px;
+    color: rgba(13, 14, 14, 0.671);
+}
+
+.link {
+    text-decoration: none;
+    color: azure;
+    font-size: 14px;
+}
+.form-element >form >p{
+    font-size: 12px;
+}
+
+.form-element >form >p > a {
+    text-decoration: none;
+}
+
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    color: azure;
+    align-items: flex-start;
+    padding: 50px;
+    gap: 20px;
+    background-color: rgb(22, 26, 26);
+    margin-top: 50px;
+}
+
+.footer > p{
+    cursor: pointer;
+}
+
+
+
+
+.footer-div{
+    display: grid;
+    width: 90vw;
+    grid-template-columns: repeat(4, 1fr);
+    grid-row-gap: 20px;
+    cursor: pointer;
+
+}
+
+.footer:hover{
+    border-bottom: 1p solid white;
+}
+
+
+
+
+
+
+@media (max-width: 900px) {
+    *{
+        box-sizing: border-box;
+        background-color: black;
+    }
+    body{
+        margin: 0;
+        padding: 0;
+        background-image: none;
+    }
+    .form-element{
+        display: flex;
+        align-items: flex-start;
+    }
+
+    form{
+        width: 100vw;
+        height: 100vh;
+        background-color: black;
+    }
+}
+
+
+

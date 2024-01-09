@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: Roboto;
+    margin: 0;
+}
+
+.page1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    gap: 40vh;
+    background-image: url('C:\Users\hp\Desktop\Netflix\netflix\public\image\bg1.png');
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.one{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90vw;
+}
+
+.btn-red{
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(163, 27, 27);
+    padding: 10px 15px;
+    color: azure;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn-red:hover{
+    background-color: red;
+}
+
+.two{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90vw;
+    gap: 20px;
+}
+
+.title-div1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    color: azure;
+}
+
+.title{
+    font-size: 56px;
+    font-weight: bolder;
+}
+
+.title-div1 > p {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.title-div2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    color: azure;
+}
+
+.title-div2 > p{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.btn-2{
+    display: flex;
+    gap: 10px;
+}
+
+.btn-2 > input{
+    width: 30vw;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 15px;
+    background-color: rgba(75, 71, 71,0.5);
+    caret-color: azure;
+    color: azure;
+}
+
+.btn-2 > input::placeholder{
+    font-size: 16px;
+    color: rgb(222, 227, 231);
+}
+
+.btn-2 > label{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.logo1{
+    width: 150px;
+    height: 50px;
+    object-fit: contain;
+}
+
+@media (max-width:900px) {
+    .page1{
+        gap: 20vh;
+        height: auto;
+        padding-top: 20px;
+    }
+
+    .one, .two{
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    .title-div1{
+        align-items: center;
+    }
+    
+
+    .title{
+        font-size: 32px;
+        font-weight: 600;
+    }
+
+    
+
+    .title-div1 > p {
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .title-div2 > p{
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .btn-2{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .btn-2 > input{
+        width: 80vw;
+        height: 40px;
+    }
+
+    .btn-2 > label{
+        width: 200px;
+        align-items: center;
+        justify-content: center;
+    }
+}
