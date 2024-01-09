@@ -6,7 +6,7 @@
 body{
     margin: 0;
     padding: 0;
-    background-image: url('C:\Users\hp\Desktop\Netflix\netflix\public\image\bg1.png');
+    background-image: url('../public/image/bg1.png');
     background-size: 100vw 150vh;
 }
 
