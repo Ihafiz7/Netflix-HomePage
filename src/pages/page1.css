@@ -13,7 +13,7 @@
     width: 100vw;
     height: 100vh;
     gap: 40vh;
-    background-image: url('C:\Users\hp\Desktop\Netflix\netflix\public\image\bg1.png');
+    background-image: url('../public/image/bg1.png');
     background-size: cover;
     background-color: rgba(0, 0, 0, 0.5);
 }
